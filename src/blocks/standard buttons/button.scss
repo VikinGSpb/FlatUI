@@ -1,0 +1,46 @@
+.button{
+    display: inline-block;
+    width: 116px;
+    padding-top: 8px;
+    height: 23px;
+    text-align: center;
+    background: white;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.small{
+    width: 75px;
+    height: 15px;
+    padding-top: 6px;
+    font-size: 11px;
+}
+
+.green{
+    color: #4eb7a8;
+    border: 1px solid #4eb7a8;
+    border-bottom: 3px solid #28a290;
+}
+
+.red{
+    color: #e75735;
+    border: 1px solid #e75735;
+    border-bottom: 3px solid #bf3e1f;
+}
+
+.pulse {
+    background-color: white;
+    border-radius: 50%;
+    animation: pulse 0.7s ease-out;
+    transform: scale(0);
+    position: absolute;
+   }
+
+@keyframes pulse {
+    to {
+     transform: scale(2);
+     background-color: #fff;
+     opacity: 0;
+    }
+}
